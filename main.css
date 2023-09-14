@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Poppins&family=Roboto&display=swap');
+
+
+:root{
+    --bgblue: #e0e3e6;
+    --bgform: #fbfbfb;
+    --label: #202020;
+    --buttonColor: #023e8a;
+}
+
+*{
+    font-family: 'Bricolage grotesque';
+}
+
+
+body{
+    background-color: var(--bgblue);
+    color: var(--label);
+    
+}
+
+/* form-container */
+
+.main-container{
+    background: var(--bgform);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 60px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 40px;
+    color: var(--buttonColor);
+}
+
+.heading span{
+    color: yellow;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs label{
+    text-transform: capitalize;
+}
+
+.inputs input{
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    outline: 1px solid #d9d9d9;
+}
+
+.button input{
+    background: var(--buttonColor);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 343px;
+    padding: 20px 10px; 
+    border-radius: 8px;
+}
+
+/* end of form-container */
+
